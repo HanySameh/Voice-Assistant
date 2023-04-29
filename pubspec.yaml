@@ -1,0 +1,33 @@
+name: voice_assistant
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  speech_to_text: ^6.1.1
+  http: ^0.13.5
+  animate_do: ^3.0.2
+  flutter_tts: ^3.6.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/sounds/
+
+  fonts:
+    - family: Cera Pro
+      fonts:
+        - asset: assets/fonts/Cera-Pro-Bold.otf
+        - asset: assets/fonts/Cera-Pro-Medium.otf
